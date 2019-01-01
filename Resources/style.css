@@ -6,3 +6,34 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
+.btn-nav {
+    text-align: right;
+    flex-grow: 1;
+}
+
+#mission {
+    height: 700px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    padding-top: 70px;
+}
+
+h2, h3, h4 {
+    margin: 0;
+    padding: 10px;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.supporting-item {
+    height: 200px;
+    margin: 10px;
+    display: block;
+}
