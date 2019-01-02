@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+div {
+    display: block;
+}
+
 header {
     width: 100%;
     position: fixed;
@@ -37,7 +41,8 @@ h2 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
-    background-color: black
+    text-align: center;
+    width: 1200px;
 }
 
 h4 {
@@ -47,21 +52,41 @@ h4 {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-weight: bold;
+    background-color: black;
+    text-align: center;
 }
 
-.btn-nav {
+footer {
+    text-align: left;
+    padding-left: 20px;
+}
+
+nav {
     text-align: right;
     flex-grow: 1;
 }
 
-.locations {
-    height: 500px;
-    width: 1000px;
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
 }
 
-.location {
-    width: 300px;
+a {
+    color: seashell;
+}
 
+
+.location {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 5px 20px;
+    background-color: black;
+    flex-basis: 280px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
 }
 
 .flex-container {
@@ -69,6 +94,14 @@ h4 {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.flex-container. locations {
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 .supporting-item img{
     height: 200px;
@@ -86,14 +119,32 @@ h4 {
     text-align: center;
 }
 
+#contact {
+    height: 200px;
+}
+
+
+#locations {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+}
+
+#locations .flex-container {
+    margin: auto;
+    width: 1100px;
+}
+
 #store {
-    height: 700px;
+    height: 750px;
     width: 1000px;
     margin: auto;
     padding-top: 70px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    text-align: center;
+    word-break:break-all;
 }
 
 #mission {
@@ -102,4 +153,10 @@ h4 {
     padding-top: 70px;
     margin: auto;
     width: 1200px;
+}
+
+#mission .content {
+    margin: auto;
+    background-color: black;
+    width: 100%;
 }
